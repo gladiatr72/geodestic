@@ -1,4 +1,4 @@
-# cython: cdivision=True, profile=True
+# cython: cdivision=True
 # vim: ft=python
 
 from libc.math cimport sin, cos, asin, sqrt, acos, atan2, abs, tan, atan, pow, M_PI

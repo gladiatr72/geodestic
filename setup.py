@@ -9,7 +9,7 @@ from distutils.core import setup
 from distutils.extension import Extension
 
 
-VERSION = '0.1'
+VERSION = '0.2.1'
 
 REQUIRES = ['cython>=0.2', 'pip']
 
@@ -62,12 +62,12 @@ if CYTHON:
             'Development Status :: 4 - Beta',
             'Environment :: Other Environment',
             'Intended Audience :: Developers',
-            'License :: OSI Apache Software License',
+            'License :: OSI Approved :: Apache Software License',
+            'Operating System :: POSIX :: Linux',
             'Operating System :: MacOS :: MacOS X',
-            'Operating System :: Linux',
-            'Programming Languages :: Cython',
-            'Classifier: Topic :: Scientific/Engineering :: GIS',
-            'Classifier: Topic :: Software Development :: Libraries :: Python Modules',
+            'Programming Language :: Cython',
+            'Topic :: Scientific/Engineering :: GIS',
+            'Topic :: Software Development :: Libraries :: Python Modules',
         ]
     )
 
