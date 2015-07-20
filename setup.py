@@ -9,7 +9,7 @@ from distutils.core import setup
 from distutils.extension import Extension
 
 
-VERSION = '0.2.1'
+VERSION = '0.2.2'
 
 REQUIRES = ['cython>=0.2', 'pip']
 
